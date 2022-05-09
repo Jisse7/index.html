@@ -1,0 +1,514 @@
+/*Ceci est un commentaire*/
+
+
+#video{
+	box-shadow: 8px 15px 30px 10px black;
+		border-radius: 15px 15px 15px 15px;
+}
+
+#background-video {
+height: 100vw;
+width: 100vw;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+}
+
+#background-video2 {
+
+
+height: 100vw;
+width: 100vw;
+object-fit: cover;
+position: fixed;
+margin
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+
+}
+
+#avatar {
+  vertical-align: center;
+  background-image: url("../pictures/grand.jpg");
+  background-repeat: repeat;
+  width: 100%;
+  margin-top: 5px;
+  height: 520px;
+  padding: 0;
+  box-shadow: 8px 15px 30px 0px black;
+  	border-radius: 10px;
+}
+
+/*RAINBOW*/
+
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  
+}
+
+.rainbow {
+  text-align: center;
+  text-decoration: dashed underline overline ;
+  font-size: 5em;
+  /*font-family: monospace;*/
+  letter-spacing: 5px;
+  animation: colorRotate 0.8s linear 0s infinite;
+
+}
+
+.rainbow2 {
+  text-align: center;
+  text-decoration: ;
+  font-size: 1.5em;
+  /*font-family: monospace;*/
+  letter-spacing: 5px;
+  animation: colorRotate 0.8s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+iframe{
+
+	padding: 0;
+border-width : 7px;
+border-color : #DDA600 ;
+border-style : double;
+border-radius : 10px;
+/*text-align : left;*/
+/*width : 1400px;*/
+/*margin-top : 50px;*/
+margin-top: -1200px;
+margin-left:30px;
+margin-right:20px;
+background: #DFD9EF;
+  /*position: fixed;*/
+/*  left: 100px;
+  right: 100px;*/
+  top: 3%;
+  width: 60em;
+  
+}
+
+
+h1:hover{
+
+	color: silver;
+
+}
+header{
+	text-align: center;
+}
+h1 { 
+	font-family : 'Josefin Sans';
+	color: ;
+	font-size: 3em;
+	
+	border: 3.2	px #DDA600 solid;
+	border-radius: 15px;
+	border-width : 3px;
+	width : 450px;
+	/*margin-top : 50px;*/
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow: 8px 15px 10px silver;
+	/*position: fixed;*/
+ }
+
+h2 {
+	font-size: 5.5em;
+	font-family: 'spaceAge';
+	text-align: center;
+	border: 10px #DDA600 double;
+	margin-top: -12px;
+	margin-right: -5px;
+	margin-left: -5px;
+	margin-bottom: ;
+	
+		border-radius: 10px;
+
+}
+
+.titre{
+	font-size: 2.5em;
+	font-family: 'Josefin Sans';
+	text-align: center;
+}
+
+h4 {
+	font-size: 2em;
+	font-family: 'Josefin Sans';
+	text-align: center;
+}
+
+
+
+
+audio{
+	height: 25px;
+	border-width: 4px;
+	border-color:  #DDA600;
+	border-style: double;
+	border-radius: 10px;
+	position: fixed;
+	top: 92.5%;
+}
+
+/*SOMMAIRE DE DROITE*/
+#menu {
+
+padding: 2px;
+border-width : 5px;
+border-color : #DDA600 ;
+border-style : double;
+border-radius : 10px;
+text-align : left;
+
+/*width : 1400px;*/
+/*margin-top : 50px;*/	
+margin-left:auto;
+margin-right:20px;
+background-image:  url("../pictures/whitel.jpg");
+  position: fixed;
+  right: 0;
+  top: 33%;
+  width: 14em;
+  margin-top: 5em;
+}
+
+
+
+li{
+	color: white;
+}
+
+h5:hover{
+
+color:  silver;
+
+}
+
+/*h1 {
+	font-family: 
+}*/
+
+.bienvenue {
+
+border-width : 10px;
+border-color : #DDA600;
+border-style : double;
+border-radius : 10px;
+text-align : center;
+font-weight: bold;
+width : 1000px;
+/*margin-top : 50px;*/
+margin-left:auto;
+margin-right:auto;
+background: ;
+	opacity: ;
+
+
+}
+/*POUR PAGE SUR L'IA*/
+.bienvenue2 {
+
+border-width : 10px;
+border-color : #DDA600;
+border-style : double;
+border-radius : 10px;
+text-align : center;
+font-weight: bold;
+width : 1480px;
+/*margin-top : 50px;*/
+margin-left:45px;
+margin-right:250px;
+background: ;
+	opacity: ;
+}
+
+#menu2 {
+
+padding: 2px;
+border-width : 11px;
+border-color : #DDA600 ;
+border-style : double;
+border-radius : 10px;
+text-align : left;
+
+/*width : 1400px;*/
+/*margin-top : 50px;*/	
+margin-left:auto;
+margin-right:20px;
+background-image:  url("../pictures/whitel.jpg");
+  position: fixed;
+  right: 0;
+  top: 63%;
+  width: 17em;
+  height:  250px;
+  margin-top: 5em;
+  margin-right: 30px;
+}
+
+
+
+}
+
+
+
+a {
+
+	font-family:  arial;
+	font-size:  1.5em;
+
+}
+
+
+a:hover {
+
+	color:  red;
+}
+
+a:focus {
+	color: red;
+}
+
+a: visited{
+	color: purple;
+}
+
+/*section {
+
+	font-family:  arial;
+	font-size:  1.2em;
+
+}*/
+
+div {
+  text-align: center;
+}
+
+h3 {
+	/*clear: both;*/
+	font-family: 'Josefin Sans';
+	font-size: 2em;
+	text-align:  center;
+}
+
+strong{
+
+	text-align: center;
+}
+
+/*les paragraphes*/
+p{
+line-height: 1.5em;
+margin-left: 22px;
+margin-right: 22px;
+font-family: 'Josefin Sans';
+color: black;
+font-size: 1.4em;
+text-align: justify;
+
+}
+
+/*pour les alinéas*/
+span {
+	margin-left: 30px
+}
+
+
+
+
+/*.mail {
+
+	font-size:  0.9em;
+}
+
+.mail1{
+
+font-size: 0.5em;
+}*/
+
+table {
+border-width : 8px;
+border-color : #DDA600;
+border-style : double;
+border-radius : 10px;
+text-align : center;
+width : 1500px;
+height: 600px;
+/*margin-top : 50px;*/
+margin-left:auto;
+margin-right:auto;
+background: #FBFADC;
+
+}
+
+
+td{
+	border: 1px black solid;
+	padding: 3px;
+}
+
+
+
+ul{
+
+	padding: 0;
+
+}
+
+nav { 
+background-image:url("../pictures/whitel.jpg") ;
+word-spacing: 200px;
+border-width : 8px;
+border-color : #DDA600;
+border-style : double;
+border-radius : 10px;
+text-align : center;
+width : 1800px;
+height: ;
+/*margin-top : 50px;*/
+margin-left:45px;
+margin-right:auto;
+
+ }
+
+li {
+	list-style:  none;
+	display: inline;
+}
+
+
+
+/*POLICES*/
+@font-face {
+	font-family: 'spaceAge';
+	src: url('../src/spaceAge.ttf') format('truetype');
+}
+
+/*gras italique souligner*/
+
+footer {
+	font-weight: bold;
+}
+
+/*pour retirer le soulignement des liens*/
+
+
+/*SOMMAIRE INDEX+NAV*/
+a { 
+font-size: 1.6em;
+font-family: 'Josefin Sans' ;
+font-weight: bold;
+text-decoration : none;
+color:  black;
+font-style:  italic;
+
+ }
+
+/* #logo {
+ 	float: left;
+ }
+*/
+
+/*SECTION POUR ME CONTACTER @*/
+ section {
+ 	
+ 	font-weight: bold;
+ 	border:  8px #DDA600 double;
+ 	border-radius: 8px;
+ 	text-align: center;
+ 	width : 1200px;
+ 	
+	/*margin-top : 50px;*/
+	margin-left:auto;
+	margin-right:auto;	
+
+ }
+
+/*POUR IA CONTACT*/
+.social{
+	text-align: center;
+ 	font-weight: bold;
+ 	border:  10px #DDA600 double;
+ 	border-radius: 8px;
+ 	text-align: center;
+ 	width : 1490px;
+ 	height: 185px;
+ 	
+	/*margin-top : 50px;*/
+	margin-left:41px;
+	margin-right:auto;	
+
+
+ }
+
+
+	
+
+/*pied de page*/
+footer{
+	text-align: center;
+	border: 10px #DDA600 double;
+	width: 1489px;
+	height: 230px;
+	margin-left: 41px;
+	border-radius: 10px;
+	background-image: url('../pictures/womanifw.png');
+	margin-bottom: 10px;
+	/* background-repeat: repeat;*/
+}
+
+ 
+/*.mail {
+text-align: center		;
+background-image: url("../pictures/womanifw.png");
+}  
+  
+*/
+ body {
+ 	font-family: arial;
+
+/* background-color: rgba(187, 194, 204,0.28) ;*/
+background-image: url('https://img.freepik.com/vecteurs-libre/design-abstrait-fond-blanc-hexagonal_1017-17583.jpg?w=2000');
+background-attachment: fixed;
+
+/*background-image: url('../pictures/wordpage');*/
+/*background-attachment: scroll;*/
+/*background-repeat: repeat-y; repeat-x; no repeat;*/
+/*background-position: bottom left, top left ; center center*/
+ 
+/*border: 5px #DDA600 double;
+margin-left: -0.5px;
+margin-right: -0.5px;
+margin-bottom: 2px;*/
+ }
+
+
+ 
