@@ -340,7 +340,7 @@ ul{
 }
 
 nav { 
-background-image:url("../pictures/whitel.jpg") ;
+background-image:url("whitel.jpg") ;
 word-spacing: 200px;
 border-width : 8px;
 border-color : #DDA600;
@@ -422,7 +422,7 @@ footer{
  
 /*.mail {
 text-align: center		;
-background-image: url("../pictures/womanifw.png");
+background-image: url("womanifw.png");
 }  
   
 */
