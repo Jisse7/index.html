@@ -37,7 +37,7 @@ z-index: -1;
 
 #avatar {
   vertical-align: center;
-  background-image: url("../pictures/grand.jpg");
+  background-image: url("grand.jpg");
   background-repeat: repeat;
   width: 100%;
   margin-top: 5px;
@@ -195,7 +195,7 @@ text-align : left;
 /*margin-top : 50px;*/	
 margin-left:auto;
 margin-right:20px;
-background-image:  url("../pictures/whitel.jpg");
+background-image:  url("whitel.jpg");
   position: fixed;
   right: 0;
   top: 33%;
@@ -266,7 +266,7 @@ text-align : left;
 /*margin-top : 50px;*/	
 margin-left:auto;
 margin-right:20px;
-background-image:  url("../pictures/whitel.jpg");
+background-image:  url("whitel.jpg");
   position: fixed;
   right: 0;
   top: 52.5%;
@@ -388,7 +388,7 @@ ul{
 }
 
 nav { 
-background-image:url("../pictures/whitel.jpg") ;
+background-image:url("whitel.jpg") ;
 word-spacing: 200px;
 border-width : 8px;
 border-color : #DDA600;
@@ -413,7 +413,7 @@ li {
 /*POLICES*/
 @font-face {
 	font-family: 'spaceAge';
-	src: url('../src/spaceAge.ttf') format('truetype');
+	src: url('spaceAge.ttf') format('truetype');
 }
 
 /*gras italique souligner*/
@@ -509,7 +509,7 @@ footer{
 	height: 230px;
 	margin-left: 41px;
 	border-radius: 10px;
-	background-image: url('../pictures/womanifw.png');
+	background-image: url('womanifw.png');
 	margin-bottom: 10px;
 	/* background-repeat: repeat;*/
 }
@@ -517,7 +517,7 @@ footer{
  
 /*.mail {
 text-align: center		;
-background-image: url("../pictures/womanifw.png");
+background-image: url("womanifw.png");
 }  
   
 */
