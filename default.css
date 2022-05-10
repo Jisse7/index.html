@@ -18,21 +18,8 @@ bottom: 0;
 z-index: -1;
 }
 
-#background-video2 {
 
 
-height: 100vw;
-width: 100vw;
-object-fit: cover;
-position: fixed;
-margin
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-z-index: -1;
-
-}
 
 #avatar {
   vertical-align: center;
@@ -56,6 +43,8 @@ z-index: -1;
   
 }
 
+
+/*pour les gros titres*/
 .rainbow {
   text-align: center;
   text-decoration: dashed underline overline ;
@@ -65,7 +54,7 @@ z-index: -1;
   animation: colorRotate 0.8s linear 0s infinite;
 
 }
-
+/*pour les textes*/
 .rainbow2 {
   text-align: center;
   text-decoration: ;
@@ -74,6 +63,8 @@ z-index: -1;
   letter-spacing: 5px;
   animation: colorRotate 0.8s linear 0s infinite;
 }
+
+
 
 @keyframes colorRotate {
   from {
@@ -140,11 +131,13 @@ h1 {
 	/*position: fixed;*/
  }
 
+
+/*ici pour page2.html*/
 h2 {
-	font-size: 5.5em;
+	font-size: 5em;
 	font-family: 'spaceAge';
 	text-align: center;
-	border: 10px #DDA600 double;
+/*	border: 10px #DDA600 double;*/
 	margin-top: -12px;
 	margin-right: -5px;
 	margin-left: -5px;
@@ -234,49 +227,12 @@ background: ;
 
 
 }
-/*POUR PAGE SUR L'IA*/
-.bienvenue2 {
-
-border-width : 10px;
-border-color : #DDA600;
-border-style : double;
-border-radius : 10px;
-text-align : center;
-font-weight: bold;
-width : 1480px;
-/*margin-top : 50px;*/
-margin-left:45px;
-margin-right:250px;
-background: ;
-	opacity: ;
-}
-
-#menu2 {
-
-padding: 2px;
-border-width : 11px;
-border-color : #DDA600 ;
-border-style : double;
-border-radius : 10px;
-text-align : left;
-
-/*width : 1400px;*/
-/*margin-top : 50px;*/	
-margin-left:auto;
-margin-right:20px;
-background-image:  url("../pictures/whitel.jpg");
-  position: fixed;
-  right: 0;
-  top: 63%;
-  width: 17em;
-  height:  250px;
-  margin-top: 5em;
-  margin-right: 30px;
-}
 
 
 
-}
+
+
+
 
 
 
@@ -412,21 +368,12 @@ li {
 	src: url('../src/spaceAge.ttf') format('truetype');
 }
 
-/*gras italique souligner*/
-
-footer {
-	font-weight: bold;
-}
-
-/*pour retirer le soulignement des liens*/
-
-
 /*SOMMAIRE INDEX+NAV*/
 a { 
 font-size: 1.6em;
 font-family: 'Josefin Sans' ;
 font-weight: bold;
-text-decoration : none;
+text-decoration : none; /*pour retirer le soulignement des liens*/
 color:  black;
 font-style:  italic;
 
@@ -452,31 +399,18 @@ font-style:  italic;
 
  }
 
-/*POUR IA CONTACT*/
+
 .social{
 	text-align: center;
- 	font-weight: bold;
- 	border:  10px #DDA600 double;
- 	border-radius: 8px;
- 	text-align: center;
- 	width : 1490px;
- 	height: 185px;
- 	
-	/*margin-top : 50px;*/
-	margin-left:41px;
-	margin-right:auto;	
-
-
- }
-
-
+}
 	
 
 /*pied de page*/
 footer{
+	font-weight: bold;
 	text-align: center;
 	border: 10px #DDA600 double;
-	width: 1489px;
+	width: 1830px;
 	height: 230px;
 	margin-left: 41px;
 	border-radius: 10px;
@@ -488,7 +422,7 @@ footer{
  
 /*.mail {
 text-align: center		;
-background-image: url("womanifw.png");
+background-image: url("../pictures/womanifw.png");
 }  
   
 */
