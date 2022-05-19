@@ -23,10 +23,10 @@ z-index: -1;
 
 #avatar {
   vertical-align: center;
-  background-image: url("grand.jpg");
+  background-image: url("../pictures/grand.jpg");
   background-repeat: repeat;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 10px;
   height: 520px;
   padding: 0;
   box-shadow: 8px 15px 30px 0px black;
@@ -62,6 +62,7 @@ z-index: -1;
   /*font-family: monospace;*/
   letter-spacing: 5px;
   animation: colorRotate 0.8s linear 0s infinite;
+  margin-top: 12px;
 }
 
 
@@ -84,17 +85,38 @@ z-index: -1;
   }
 }
 
+*{
+	box-sizing: border-box;
+}
+
+img{ 
+
+margin-top: 12px;
+margin-bottom: 12px;
+
+ }
+
+ form{
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	margin-left: 45px;
+ 	margin-right: 1350px	;
+ 	border:  8px #FFE8C7 solid;
+ 	border-radius: 15px;
+ 	background-color: white;
+ }
+
 iframe{
 
 	padding: 0;
 border-width : 7px;
-border-color : #DDA600 ;
-border-style : double;
+border-color : #FFE8C7 ;
+border-style : solid;
 border-radius : 10px;
 /*text-align : left;*/
 /*width : 1400px;*/
-/*margin-top : 50px;*/
-margin-top: -1200px;
+margin-top : -530px;
+margin-top: px;
 margin-left:30px;
 margin-right:20px;
 background: #DFD9EF;
@@ -104,6 +126,10 @@ background: #DFD9EF;
   top: 3%;
   width: 60em;
   
+}
+
+.pdf1{
+	margin-left: 600px;
 }
 
 
@@ -120,7 +146,7 @@ h1 {
 	color: ;
 	font-size: 3em;
 	
-	border: 3.2	px #DDA600 solid;
+	border: 3.2	px #FFE8C7 solid;
 	border-radius: 15px;
 	border-width : 3px;
 	width : 450px;
@@ -137,11 +163,11 @@ h2 {
 	font-size: 5em;
 	font-family: 'spaceAge';
 	text-align: center;
-/*	border: 10px #DDA600 double;*/
+/*	border: 10px #FFE8C7 solid;*/
 	margin-top: -12px;
 	margin-right: -5px;
 	margin-left: -5px;
-	margin-bottom: ;
+	margin-bottom: 5px ;
 	
 		border-radius: 10px;
 
@@ -165,8 +191,8 @@ h4 {
 audio{
 	height: 25px;
 	border-width: 4px;
-	border-color:  #DDA600;
-	border-style: double;
+	border-color:  #FFE8C7;
+	border-style: solid;
 	border-radius: 10px;
 	position: fixed;
 	top: 92.5%;
@@ -177,28 +203,26 @@ audio{
 
 padding: 2px;
 border-width : 5px;
-border-color : #DDA600 ;
-border-style : double;
+border-color : #FFE8C7 ;
+border-style : solid;
 border-radius : 10px;
 text-align : left;
 
 /*width : 1400px;*/
-/*margin-top : 50px;*/	
+/*margin-top : -900px;*/	
 margin-left:auto;
 margin-right:20px;
-background-image:  url("whitel.jpg");
+background-image:  url("../pictures/whitel.jpg");
   position: fixed;
   right: 0;
-  top: 33%;
-  width: 14em;
+  top: 31%;
+  width: 15em;
   margin-top: 5em;
 }
 
 
 
-li{
-	color: white;
-}
+
 
 h5:hover{
 
@@ -213,12 +237,12 @@ color:  silver;
 .bienvenue {
 
 border-width : 10px;
-border-color : #DDA600;
-border-style : double;
+border-color : #FFE8C7;
+border-style : solid;
 border-radius : 10px;
 text-align : center;
 font-weight: bold;
-width : 1000px;
+width : 1100px;
 /*margin-top : 50px;*/
 margin-left:auto;
 margin-right:auto;
@@ -289,6 +313,7 @@ font-family: 'Josefin Sans';
 color: black;
 font-size: 1.4em;
 text-align: justify;
+text-transform: initial;
 
 }
 
@@ -312,8 +337,8 @@ font-size: 0.5em;
 
 table {
 border-width : 8px;
-border-color : #DDA600;
-border-style : double;
+border-color : #FFE8C7;
+border-style : solid;
 border-radius : 10px;
 text-align : center;
 width : 1500px;
@@ -322,6 +347,7 @@ height: 600px;
 margin-left:auto;
 margin-right:auto;
 background: #FBFADC;
+/*empty-cells: hide; pour faire disparaître les cellules vides*/
 
 }
 
@@ -340,24 +366,30 @@ ul{
 }
 
 nav { 
-background-image:url("whitel.jpg") ;
-word-spacing: 200px;
-border-width : 8px;
-border-color : #DDA600;
-border-style : double;
+background-image:url("../pictures/whitel.jpg") ;
+/*word-spacing: 200px;
+*/border-width : 8px;
+border-color : #FFE8C7;
+border-style : solid;
 border-radius : 10px;
 text-align : center;
 width : 1800px;
 height: ;
 /*margin-top : 50px;*/
-margin-left:45px;
-margin-right:auto;
+margin: auto;
 
  }
 
 li {
 	list-style:  none;
 	display: inline;
+	/*en bas, pour espacer les listIem de 100% entre eux, mieux que word*/
+	margin: 100px; 
+}
+
+/*en bas, pour le sommaire à droite qui est aussi une liste, alors on lui met une classe*/
+.droite {
+	margin: 0px;
 }
 
 
@@ -365,7 +397,7 @@ li {
 /*POLICES*/
 @font-face {
 	font-family: 'spaceAge';
-	src: url('spaceAge.ttf') format('truetype');
+	src: url('../src/spaceAge.ttf') format('truetype');
 }
 
 /*SOMMAIRE INDEX+NAV*/
@@ -383,12 +415,61 @@ font-style:  italic;
  	float: left;
  }
 */
+#projet{
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.projet {
+	width: 400px;
+	margin: 30px;
+	display: inline-block;
+	background:  white;
+	padding-bottom: 15px;
+	border: 0px black solid;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 9px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.projet:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition:  0.3s;
+}
+
+.projet img {
+	min-width: 400px;
+	min-height: 100px;
+}
+
+.projet span {
+	display: block;
+}
+
+.projet .date-project{
+	margin-top: 10px;
+	font-size:  0.7em;
+}
+
+.picture {
+
+	width: 400px;
+	height:  400px;
+	overflow: hidden;
+	margin-bottom: 15px;
+
+}
+
+.date-project{
+
+}
 
 /*SECTION POUR ME CONTACTER @*/
- section {
+#contact {
  	
  	font-weight: bold;
- 	border:  8px #DDA600 double;
+ 	border:  8px #FFE8C7 solid;
  	border-radius: 8px;
  	text-align: center;
  	width : 1200px;
@@ -409,20 +490,21 @@ font-style:  italic;
 footer{
 	font-weight: bold;
 	text-align: center;
-	border: 10px #DDA600 double;
+	border: 5px #FFE8C7 solid;
 	width: 1830px;
 	height: 230px;
-	margin-left: 41px;
+	margin:  auto;
 	border-radius: 10px;
-	background-image: url('womanifw.png');
-	margin-bottom: 10px;
+	background-image: url('../pictures/womanifw.png');
+	
+	padding-bottom: 10px;
 	/* background-repeat: repeat;*/
 }
 
  
 /*.mail {
 text-align: center		;
-background-image: url("womanifw.png");
+background-image: url("../pictures/womanifw.png");
 }  
   
 */
@@ -430,7 +512,7 @@ background-image: url("womanifw.png");
  	font-family: arial;
 
 /* background-color: rgba(187, 194, 204,0.28) ;*/
-background-image: url('https://img.freepik.com/vecteurs-libre/design-abstrait-fond-blanc-hexagonal_1017-17583.jpg?w=2000');
+/*background-image: url('https://img.freepik.com/vecteurs-libre/design-abstrait-fond-blanc-hexagonal_1017-17583.jpg?w=2000');*/
 background-attachment: fixed;
 
 /*background-image: url('../pictures/wordpage');*/
@@ -438,7 +520,7 @@ background-attachment: fixed;
 /*background-repeat: repeat-y; repeat-x; no repeat;*/
 /*background-position: bottom left, top left ; center center*/
  
-/*border: 5px #DDA600 double;
+/*border: 5px #FFE8C7 solid;
 margin-left: -0.5px;
 margin-right: -0.5px;
 margin-bottom: 2px;*/
