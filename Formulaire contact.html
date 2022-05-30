@@ -4,12 +4,10 @@
 	<!-- <link rel="icon" type="image/jpg" href="pictures/favicon.png"> -->
 	<meta charset ="utf-8"/>
 	<title> Formulaire Contact </title>
-	<link rel="stylesheet" type="text/css" href="default.css">
+	<link rel="stylesheet" type="text/css" href="design/default.css">
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
 
 <video id="background-video" autoplay loop muted>
 
@@ -17,86 +15,137 @@
 
 </video>
 
-<!--  <div class="content"> -->
-
-
- 
 <header>
 
 
-	<h2 style="color:#7C67BF">Formulaire de contact</h2>
-	<!-- <figure> -->
+  <h2 style="margin-top: 20px; font-family: Josefin Sans">Formulaire de contact</h2>
+  <!-- <figure> -->
 
-		<div>
-	<img src="logo.jpeg" alt="logo" title="Insomnia" id="logo" />
-		</div>
-	<!-- <figcaption>   Family Emblem </figcaption>  -->
-		<!-- →legende pour embleme -->
-<!-- </figure> -->
-</header>	
+    <div>
+  <img src="pictures/logo.jpeg" alt="logo" title="Insomnia" id="logo" />
+    </div>
 
 
+    
+    <nav>
+  <ul>
+  <li> <a href="index.html" title="Aller à la page 2" target ="_blank">Accueil </a> </li>
+  <li> <a class="rainbow2" href="page2.html" target ="_blank"> AURILLAC </a> </li>
+  <li> <a href="IA.html" target ="_blank"> I.A. </a> </li>
+  <li> <a href="sources.html" target ="_blank"> Sources </a> </li>
+  <li> <a href="cnam.html" target ="_blank"> CNAM </a> </li>
 
-
-<nav>
-	<ul>
-	<li> <a href="index.html" title="Aller à la page 2" target ="_blank">Accueil </a> </li>
-	<li> <a class="rainbow2" href="page2.html" target ="_blank"> AURILLAC </a> </li>
-	<li> <a href="IA.html" target ="_blank"> I.A. </a> </li>
-	<li> <a href="sources.html" target ="_blank"> Sources </a> </li>
-	<li> <a href="cnam.html" target ="_blank"> CNAM </a> </li>
-
-	<!-- <li> <a href="#contact">Contact </a> </li> -->
-	
+  
 </ul>
 </nav>
+  </header>
 
-<section>
-	<form action="traitement.php" method="post">
-		<p>Remplissez ce formulaire. </br>
-			<br>
-
-
-		<label> Sexe: </label> </br>
-		<input type="radio" name="sexe" value="homme"> <label for="homme">homme </label><br/> 
-		<input type="radio" name="sexe" value="femme"> <label for="femme">femme </label></br>
-
-		<label> Nom : </label> </br>
-		<input type="text" name="nom" maxlenght="50" size="50" placeholder="Exemple: Fey"> </br>
-
-		<label> Prénom : </label> </br>
-		<input type="text" name="prenom" maxlenght="50" size="50" placeholder="Exemple: Jissé"> </br>	
-
-		<label> Votre adresse email : </label> </br>
-		<input type="email" name="email" maxlenght="50" size="50" placeholder="Exemple: truc@gmail.com"> </br>	
-
-		<label> Votre numéro de téléphone : </label> </br>
-		<input type="tel" name="tel" maxlenght="50" size="50" placeholder="Exemple: 0718293142"> </br>
-
-		<label> Votre date de naissance : </label> </br>
-		<input type="date" name="date" maxlenght="50" size="50" placeholder="Exemple: jour/mois/année"> </br>
-
-		<label> Votre couleur préférée : </label> </br>
-		<input type="color" name="nom" maxlenght="50" size="50" placeholder="Exemple: Fey"> </br>
-
-		<label> Notez l'intelligence de Montelimar de 1 à 10 : </label> </br>
-		<input type="range" min="1" max="10" name="sécurité" maxlenght="50" size="50" placeholder="Exemple: jour/mois/année"> </br>
-
-		<label>Aimez-vous Quentin Grange? <br> Image de Quentin Grange ci-dessous : <img src="Quentin.jpg" alt="logo" title="Insomnia" id="logo" /> </label> </br>
-		<input type="checkbox" name="quentin"> <label for="Non"> Non </label>  </br>	
-		<input type="checkbox" name="quentin2"> <label for="Non2"> Non vraiment pas </label> </br>
-
-		<br>
-
-		<label> Décrivez votre personnalité: </label>  </br>
-		<textarea name="description" rows="8" cols="50" placeholder="Exemple: me raconte pas ta vie"> </textarea>
-
-		</p>
-	</form>
+<form action="action.php" method="post">
+    <fieldset class="part1">
+    <legend> <b> Remplissez ce formulaire. </b> </legend> </br>
+      <br>
 
 
+    <label> <b> Sexe: </b> </label> </br>
+    <input type="radio" name="user_sex" value="Monsieur"> <label for="homme"> ♂ Homme  </label> </Br>
+    <input type="radio" name="user_sex" value="Madame"> <label for="femme"> ♀ Femme </label> </br> 
+    <!-- <input type="radio" name="sexe" value="idk" checked> <label for="femme"> ¯\_(ツ)_/¯ Peut-être </label></br> -->
+
+    
+<br>
+    <label> <b>Nom *</b> : </label> </br>
+    <input type="text" name="user_name" maxlenght="50" size="50" placeholder="Exemple: Fey" required autofocus> </br>
+<br>
+    <label> <b>Prénom *</b> : </label> </br>
+    <input type="text" name="user_prenom" maxlenght="50" size="50" placeholder="Exemple: Jissé" required> </br>  
+<br>
+    <label for= "De quelle antenne êtes-vous ?" > <b> De quelle antenne êtes-vous ? :</b> </br> </label> 
+    <input type="text" list= "city" name="user_city">
+    <datalist id= "city">
+    <option value="Aurillac">
+    <option value="Montelimar">
+    <option value="Saint-Etienne">
+  </datalist>
+
+<br><br>
+
+    <label> <b>Votre adresse email 📧 *</b>: </label> </br>
+    <input type="email" name="user_email" maxlenght="50" size="50" placeholder="Exemple: truc@gmail.com"required> </br>  
+   <br> 
+    <label> <b>Mot de passe *</b> : </label> </br>
+    <input type="password" name="mdp" maxlenght="50" size="50" placeholder="Exemple: pas 1234" required> </br>  
+<br>
+    <label> <b>Votre numéro de téléphone ✆ *</b>: </label> </br>
+    <input type="tel" name="user_tel" maxlenght="50" size="50" placeholder="Exemple: 0718293142"required> </br>
+<br>
+    <label> <b>Votre date de naissance *</b> : </label> </br>
+    <input type="date" name="user_date" maxlenght="50" size="50" placeholder="Exemple: jour/mois/année"required> </br>
+    <br>
+
+     <label for="avatar"><b>Je mange des pdf miam miam:<b> </label> </br>
+     <!-- VA SAVOIR POURQUOI MAIS RAJOUTER </br> PERMET DEMPECHER LA REPARTITION DES MOTS SUR LA LIGNE XDDDDD -->
+    <input type="file" id="document" name="user_pdf" accept=".pdf" multiple capture="user">
+    <!-- ici, je mange que des pdf, tu peux m'en envoyer plusieurs -->
+    <br><br>
+      <label for="appt-time">Veuillez choisir une heure de rendez-vous (heures d'ouverture 12:00 à 18:00) : </label> </br>
+  <input id="time" type="time" name="user_time"
+         min="12:00" max="18:00">
 
 
+    <br><br>
+    * Champs obligatoires
+</fieldset>
+
+    <fieldset class="part2">
+       <legend> <b> Dites-nous tout. </b> </legend> </br>
+      <br>
+<br>  
+  
+    <label> <b>Votre couleur préférée</b> : </label> </br>
+    <input type="color" name="user_color" maxlenght="50" size="50" placeholder="Exemple: Fey"> </br>
+
+<br><br>
+    <label> <b>Notez l'intelligence de Montélimar de -10 à 0 🧠</b></br> 
+     <img src="pictures/monte.png" alt="logo" title="Asile de fous" id="logo" /></label> </br>
+    -10 -5  0<input type="range" min="-10" max="0" step="0.1" name="user_smart" maxlenght="50" size="50" placeholder="Exemple: jour/mois/année">
+
+  </br>
+<br><br>
+    <label> <b>🔥Qui gagne le 1v1? 🔥</b>: <img src="pictures/fight.png" alt="1v1" title="Octogone" id="fierté" /></label> </br>
+    <select name="user_fight" >
+      <!-- selected pour désigner le choix par défaut -->
+      <optgroup label="👑 Sélectionnez votre Champion 👑"> </optgroup>
+      <optgroup label=""> </optgroup>
+      <optgroup label="🦁 Morocco"> </optgroup>
+        <option value=" ELYAAGOUBI Mohamed Sami">  ELYAAGOUBI Mohamed Sami </option>
+
+      <optgroup label="🌞 Argentina"> </optgroup>
+        <option value=" MASSA LEONE Andrés 🌞" > MASSA LEONE Andrés  </option>
+    </select>
+<br>
+<br><br>
+
+    <label><b>Aimez-vous Quentin Grange? </b>❌ <br> ↓ Image de Quentin Grange ci-dessous ↓
+      <img src="pictures/qtin.png" alt="qtin.png" title="47kilos" id="qtin" /> </label> </br>
+    <input type="checkbox" name="user_quentin" value="NON" checked> <label for="Non"> NON </label>  </br>  
+    <input type="checkbox" name="user_quentin" value="NON VRAIMENT PAS"> <label for="Non"> NON VRAIMENT PAS </label> </br>
+    <input type="checkbox" name="user_quentin" value="NON EN ROUGE"> <label for="Non" style="color:red"> <b> NON en rouge </b> </label> </br>
+
+    <br><br>
+
+    <label> <b>Décrivez votre personnalité: </b></label>  </br>
+    <textarea name="user_message" rows="10" cols="62" placeholder=" Exemple: me raconte pas ta vie"> </textarea>
+
+    </p>
+    
+  
+  <button type="submit" name="valider" style="color:green">Envoyer</button> 
+  <button type="reset"style="color:red"> Réinitialiser </button>
+    
+    
+    </fieldset>
+  
+</form>
 
 
 
@@ -108,20 +157,23 @@
 
 <br> <br>
 
-<section id="contact" >
-	<h4> Contact </h4>
+<section id="contact2" >
+    <h4> Contact </h4>
 
-	<p class="social">  Si vous voulez me contacter n'hésitez pas à m'envoyer un mail à <a  href="mailto:jcfeydel@gmail.com"> <b>jcfeydel@gmail.com 📧</b> </a> </p>
+    <p class="social">  Si vous voulez me contacter n'hésitez pas à m'envoyer un mail à <a  href="mailto:jcfeydel@gmail.com"> <b>jcfeydel@gmail.com 📧</b> </a> </p>
 
 </section>
 
-<br><br>
-
+<br> <br>
 <footer>
-<br> <br><br><br><br><br><br><br><br><br><br><br><br>
-<span> 2022 © JC </span>
+
+
+<span id="yolo">
+
+><br> <br><br><br> <br><br><br> <br> <br> <br> <br>   2022 © JC </span>
 
 </footer>
+
 
 
 
